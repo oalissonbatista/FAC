@@ -1,5 +1,5 @@
 .data
-message: .asciiz "Ola Mundo\n"
+message: .asciiz "\n"
 .text
 main:
     li $v0,4
