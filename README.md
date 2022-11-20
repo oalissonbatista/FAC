@@ -1,2 +1,2 @@
 # FAC
-Fundamentos e arquitetura de computadores - FGA
+Fundamentos de arquitetura de computadores - FGA
