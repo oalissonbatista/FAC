@@ -2,10 +2,10 @@
 pular_linha: .asciiz "\n"
 .text
 main:
-    li $v0,5
+    li $v0,5         #lendo um inteiro
     syscall
     
-    move $t0,$v0
+    move $t0,$v0     
 
     li $v0,5
     syscall
@@ -18,8 +18,8 @@ main:
     move $a0, $t2
     syscall
 
-    li $v0, 4 
-    la $a0, pular_linha
+    li $v0, 4
+    la $a0, pular_linha  # imprimindo quebra de linha
     syscall
 
     li $v0, 10
