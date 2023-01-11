@@ -23,7 +23,6 @@ main:
     #consumo maior que 10m³
     bgt $t1,$t4,intervalo1
     
-
 assinaturaBasica:
     move $t2,$t3
     jal ImprimeValor
